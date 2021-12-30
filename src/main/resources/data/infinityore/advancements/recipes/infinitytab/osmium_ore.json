@@ -2,7 +2,7 @@
   "parent": "minecraft:recipes/root",
   "rewards": {
     "recipes": [
-      "infinityore:block_test"
+      "infinityore:osmium_ore"
     ]
   },
   "criteria": {
@@ -19,7 +19,7 @@
     "has_the_recipe": {
       "trigger": "minecraft:recipe_unlocked",
       "conditions": {
-        "recipe": "infinityore:block_test"
+        "recipe": "infinityore:osmium_ore"
       }
     }
   },
