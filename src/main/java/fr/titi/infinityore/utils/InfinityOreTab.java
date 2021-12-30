@@ -15,6 +15,6 @@ public class InfinityOreTab extends ItemGroup {
 
     @Override
     public ItemStack makeIcon() {
-        return new ItemStack(ModItems.ITEM_TEST.get());
+        return new ItemStack(ModItems.OSMIUM_INGOT.get());
     }
 }

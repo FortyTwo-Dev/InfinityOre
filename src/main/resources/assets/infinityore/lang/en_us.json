@@ -1,4 +1,5 @@
 {
   "block.infinityore.osmium_ore": "Osmium ore",
-  "item.infinityore.item_test": "Item Test"
+  "item.infinityore.osmium_ingot": "Osmium Ingot",
+  "itemGroup.infinityoretab": "InfinityOreTab"
 }

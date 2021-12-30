@@ -21,11 +21,11 @@ public class RecipeGenerator extends RecipeProvider {
     protected void buildShapelessRecipes(Consumer<IFinishedRecipe> consumer) {
 
         ShapedRecipeBuilder.shaped(ModBlocks.OSMIUM_ORE.get())
-                .define('S', ModItems.ITEM_TEST.get())
+                .define('S', ModItems.OSMIUM_INGOT.get())
                 .pattern("SSS")
                 .pattern("SSS")
                 .pattern("SSS")
-                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.ITEM_TEST.get()))
+                .unlockedBy("unlock", InventoryChangeTrigger.Instance.hasItems(ModItems.OSMIUM_INGOT.get()))
                 .save(consumer);
     }
 }

@@ -26,11 +26,11 @@ public class LangGenerator extends LanguageProvider {
     }
 
     private void Item(PrefixHelper helper) {
-        helper.add(ModItems.ITEM_TEST.get(), "Item Test");
+        helper.add(ModItems.OSMIUM_INGOT.get(), "Osmium Ingot");
     }
 
     private void Categories(PrefixHelper helper) {
-
+        add("itemGroup.infinityoretab", "InfinityOreTab");
     }
 
     @Override
