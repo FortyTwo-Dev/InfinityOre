@@ -18,7 +18,7 @@ public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, InfinityOre.MODID);
     //
 
-    public static final RegistryObject<Block> BLOCK_TEST = createBlock("block_test", () ->
+    public static final RegistryObject<Block> OSMIUM_ORE = createBlock("osmium_ore", () ->
             new Block(AbstractBlock.Properties.of(Material.STONE).strength(3.0f, 3.0f)));
 
 

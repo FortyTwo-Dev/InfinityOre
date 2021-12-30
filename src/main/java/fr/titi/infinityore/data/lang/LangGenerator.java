@@ -22,7 +22,7 @@ public class LangGenerator extends LanguageProvider {
     }
 
     private void block(PrefixHelper helper) {
-        helper.add(ModBlocks.BLOCK_TEST.get(), "Block Test");
+        helper.add(ModBlocks.OSMIUM_ORE.get(), "Osmium ore");
     }
 
     private void Item(PrefixHelper helper) {
