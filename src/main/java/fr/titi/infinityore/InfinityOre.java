@@ -3,6 +3,7 @@ package fr.titi.infinityore;
 import fr.titi.infinityore.config.Config;
 import fr.titi.infinityore.init.ModBlocks;
 import fr.titi.infinityore.init.ModItems;
+import fr.titi.infinityore.utils.ModConfiguredFeature;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -39,6 +40,10 @@ public class InfinityOre {
 
     private void setup (final FMLCommonSetupEvent event) {
         MinecraftForge.EVENT_BUS.register(this);
+
+        ModConfiguredFeature feature = new ModConfiguredFeature();
+        feature.init();
+        MinecraftForge.EVENT_BUS.register(feature);
 
     }
 
