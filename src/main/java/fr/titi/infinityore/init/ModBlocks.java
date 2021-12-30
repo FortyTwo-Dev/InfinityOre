@@ -22,6 +22,7 @@ public class ModBlocks {
             new Block(AbstractBlock.Properties.of(Material.STONE).strength(3.0f, 3.0f)));
 
 
+
     //
     public static RegistryObject<Block> createBlock(String name, Supplier <? extends Block> supplier) {
 
