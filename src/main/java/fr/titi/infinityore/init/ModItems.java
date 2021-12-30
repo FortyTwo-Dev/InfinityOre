@@ -12,6 +12,6 @@ public class ModItems {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, InfinityOre.MODID);
 
     public static final RegistryObject<Item> OSMIUM_INGOT = ITEMS.register("osmium_ingot", () ->
-            new Item(new Item.Properties().stacksTo(16).tab(InfinityOreTab.TAB)));
+            new Item(new Item.Properties().tab(InfinityOreTab.TAB)));
 
 }
