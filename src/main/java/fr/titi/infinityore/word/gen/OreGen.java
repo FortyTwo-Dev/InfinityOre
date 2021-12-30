@@ -1,12 +1,16 @@
 package fr.titi.infinityore.word.gen;
 
+
 import fr.titi.infinityore.init.ModBlocks;
-import jdk.nashorn.internal.ir.Block;
+import net.minecraft.block.Block;
 import net.minecraftforge.common.util.Lazy;
 
 public enum OreGen {
-
+    //generation de minerais
+    //osmium
     ORE_OSMIUM(Lazy.of(ModBlocks.OSMIUM_ORE), 8, 25, 50);
+
+    //autre
 
     private final Lazy<Block> block;
     private final int maxVeinSize;
@@ -45,3 +49,7 @@ public enum OreGen {
         return null;
     }
 }
+
+
+
+
