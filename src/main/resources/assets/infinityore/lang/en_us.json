@@ -1,5 +1,6 @@
 {
-  "block.infinityore.osmium_ore": "Osmium ore",
+  "block.infinityore.osmium_block": "Osmium Block",
+  "block.infinityore.osmium_ore": "Osmium Ore",
   "item.infinityore.osmium_ingot": "Osmium Ingot",
   "itemGroup.infinityoretab": "InfinityOreTab"
 }

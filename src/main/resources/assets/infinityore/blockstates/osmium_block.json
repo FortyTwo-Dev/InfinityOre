@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "infinityore:block/osmium_block"
+    }
+  }
+}

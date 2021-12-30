@@ -21,7 +21,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> OSMIUM_ORE = createBlock("osmium_ore", () ->
             new Block(AbstractBlock.Properties.of(Material.STONE).strength(3.0f, 3.0f)));
 
-
+    public static final RegistryObject<Block> OSMIUM_BLOCK = createBlock("osmium_block", () ->
+            new Block(AbstractBlock.Properties.of(Material.METAL).strength(5.0f, 6.0f)));
 
     //
     public static RegistryObject<Block> createBlock(String name, Supplier <? extends Block> supplier) {

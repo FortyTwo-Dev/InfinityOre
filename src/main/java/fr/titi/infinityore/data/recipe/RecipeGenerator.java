@@ -20,7 +20,7 @@ public class RecipeGenerator extends RecipeProvider {
     @Override
     protected void buildShapelessRecipes(Consumer<IFinishedRecipe> consumer) {
 
-        ShapedRecipeBuilder.shaped(ModBlocks.OSMIUM_ORE.get())
+        ShapedRecipeBuilder.shaped(ModBlocks.OSMIUM_BLOCK.get())
                 .define('S', ModItems.OSMIUM_INGOT.get())
                 .pattern("SSS")
                 .pattern("SSS")
