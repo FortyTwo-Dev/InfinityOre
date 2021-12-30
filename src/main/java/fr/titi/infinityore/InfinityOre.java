@@ -18,10 +18,10 @@ public class InfinityOre {
     public static final String MODID = "infinityore";
 
 
-    public static Config config;
+    //public static Config config;
 
     public InfinityOre() {
-        config = new Config();
+        //config = new Config();
 
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::setup);
         FMLJavaModLoadingContext.get().getModEventBus().addListener(this::clientSetup);
@@ -30,7 +30,7 @@ public class InfinityOre {
         ModItems.ITEMS.register(bus);
         ModBlocks.BLOCKS.register(bus);
 
-        ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, config.configSpec);
+        //ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, config.configSpec);
 
     }
 
