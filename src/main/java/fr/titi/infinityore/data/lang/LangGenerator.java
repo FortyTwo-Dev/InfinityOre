@@ -30,6 +30,7 @@ public class LangGenerator extends LanguageProvider {
     }
 
     private void Categories(PrefixHelper helper) {
+
         add("itemGroup.infinityoretab", "InfinityOreTab");
     }
 

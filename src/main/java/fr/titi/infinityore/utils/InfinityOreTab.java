@@ -7,7 +7,7 @@ import net.minecraft.item.ItemStack;
 
 public class InfinityOreTab extends ItemGroup {
 
-    public static final InfinityOreTab TAB = new InfinityOreTab(ItemGroup.TABS.length, "infinitytab");
+    public static final InfinityOreTab TAB = new InfinityOreTab(ItemGroup.TABS.length, "infinityoretab");
 
     public InfinityOreTab(int i, String label) {
         super(i, label);
