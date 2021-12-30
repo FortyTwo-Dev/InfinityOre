@@ -1,6 +1,7 @@
 {
-  "parent": "block/cube_all",
-  "textures": {
-    "all" : "infinityore:block/osmium_ore"
+  "variants": {
+    "": {
+      "model": "infinityore:block/osmium_ore"
+    }
   }
 }
